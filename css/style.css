@@ -138,6 +138,8 @@
     opacity: 0.3;
 }
 #clients{
+    z-index: -1;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,6 +205,18 @@ footer{
 }
 
 .btn {
+    font-family: 'Special Elite', cursive;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.btn2 {
+    width: 2px;
     font-family: 'Special Elite', cursive;
     padding: 6px 20px;
     border: 2px solid white;
