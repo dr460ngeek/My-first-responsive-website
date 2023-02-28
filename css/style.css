@@ -116,14 +116,6 @@
    display: block;
 }
 
-#services .box p{
-
-} 
-
-#services{}
-#services{}
-#services{}
-
 /* Clients Section */
 #client-section{
     position: relative;
@@ -151,9 +143,9 @@
     padding: 34px;
 }
 /* Contact Section  */
-#contact{
-    postition:relative;
-}
+/* #contact{
+    position:relative;
+} */
 #contact::before{
     content: "";
     position: absolute;
